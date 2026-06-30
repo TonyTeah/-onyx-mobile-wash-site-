@@ -1,6 +1,11 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/crm"
+  to = "/onyx-crm-v3.html"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
